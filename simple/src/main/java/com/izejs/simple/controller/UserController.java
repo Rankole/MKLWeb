@@ -184,7 +184,7 @@ public class UserController {
         response.setContentType("text/html; charset=UTF-8");
         response.setContentType("image/jpeg");
         String filePath = Thread.currentThread().getContextClassLoader().getResource("").getPath();
-        filePath = filePath + "/static/images/face.jpg";
+        filePath = filePath + "/static/images/logo.png";
         filePath = URLDecoder.decode(filePath, "UTF-8");
         FileInputStream fis = null;
         OutputStream os = null;
