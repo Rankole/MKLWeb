@@ -12,3 +12,8 @@
 # Datasource local storage ignored files
 /dataSources/
 >>>>>>> origin/master
+=======
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+>>>>>>> origin/master

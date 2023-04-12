@@ -53,7 +53,7 @@ iframe{ position:absolute; height:100%; width:100%; border:none;}
 .logo{ color: #fff; float: left; line-height:60px; font-size:20px; padding:0 10px; text-align: left; width:180px;}
 .hideMenu{ float:left; width:20px; height:20px; margin-top:15px; font-size:17px; line-height:20px; text-align:center; padding:5px 5px; color:#fff; background-color:#1AA094; }
 .hideMenu:hover{ color:#fff; }
-.layui-nav cite{ margin-left: 5px;}
+.layui-nav cite{ margin-left: 1px;}
 /*顶部右侧*/
 .topLevelMenus{float:left;}
 .topLevelMenus li.layui-nav-item:hover{ background-color:rgba(221,221,221,0.2);}
@@ -76,7 +76,7 @@ iframe{ position:absolute; height:100%; width:100%; border:none;}
 .user-photo p{ display: block; width: 100%; height: 25px; color: #ffffff; text-align: center; font-size: 12px; white-space: nowrap;line-height: 25px; overflow: hidden;}
 /*左侧导航重定义*/
 .layui-nav-item.layui-nav-itemed{ background-color:#2B2E37 !important;}
-.layui-nav-itemed:before{ width:5px; height:100%; background-color:#009688; position:absolute; content:''; left:0; top:0;}
+.layui-nav-itemed:before{ width:10px; height:100%; background-color:#009688; position:absolute; content:''; left:0; top:0;}
 .layui-nav-itemed .layui-nav-child a{ padding-left:40px;}
 /*左侧搜索框*/
 .component{ width:180px; height:30px; margin:0 auto 5px; position:relative;}
