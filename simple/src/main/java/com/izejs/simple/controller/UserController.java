@@ -129,7 +129,7 @@ public class UserController {
 
         try {
             mailUtil.setToMailUser(toMailUser);
-            mailUtil.setSubject("洗衣机自助平台验证码");
+            mailUtil.setSubject("电池安全测试系统验证码");
             mailUtil.setContent(code);
             mailUtil.sendSimpleMail();
             System.out.println(code);
