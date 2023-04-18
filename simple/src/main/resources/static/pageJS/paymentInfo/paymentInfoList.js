@@ -31,6 +31,7 @@ layui.use(['form', 'laydate', 'jquery', 'upload', 'table', 'layer'], function ()
         },
         cols: [[
             {field: "id", hide: true},
+            {field: 'userid', title: '用户id', align: 'center'},
             {field: 'userName', title: '用户名', align: 'center'},
             {field: 'paymentExplain', title: '类型说明', align: 'center'},
             {field: 'money', sort: true, title: '金额', align: 'center'},

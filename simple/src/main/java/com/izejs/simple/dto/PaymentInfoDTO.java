@@ -10,7 +10,8 @@ package com.izejs.simple.dto;
  */
  public class PaymentInfoDTO{
 
-    private Integer userId;
+
+    public Integer userId;
 
     public Integer getUserId() {
         return userId;
@@ -19,6 +20,7 @@ package com.izejs.simple.dto;
     public void setUserId(Integer userId) {
         this.userId = userId;
     }
+
 
     private String type;
 
@@ -29,7 +31,10 @@ package com.izejs.simple.dto;
     public void setType(String type){
         this.type = type;
     }
-            private String paymentExplain;
+
+
+
+    private String paymentExplain;
 
     public String getPaymentExplain(){
         return this.paymentExplain;

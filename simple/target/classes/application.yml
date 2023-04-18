@@ -6,21 +6,21 @@ spring:
         password: Mkl13705313268
     mvc:
         view:
-          prefix: /pages/
-          suffix: .html
+            prefix: /pages/
+            suffix: .html
     profiles:
         active: dev
     # 设置热部署
     devtools:
-      restart:
-          enabled: true
-          additional-paths: src/main/java
-          additional-exclude: WEB-INF/**
+        restart:
+            enabled: true
+            additional-paths: src/main/java
+            additional-exclude: WEB-INF/**
     # 设置上传文件的大小限制
     servlet:
-      multipart:
-          max-request-size: 100MB
-          max-file-size: 50MB
+        multipart:
+            max-request-size: 100MB
+            max-file-size: 50MB
     mail:
         host: smtp.qq.com
         username: 1819228294@qq.com
@@ -38,11 +38,11 @@ spring:
 mybatis-plus:
     configuration:
         log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-# mapper.xml文件位置
+    # mapper.xml文件位置
     mapper-locations: classpath:mapper/*.xml
     global-config:
-            db-config:
-                id-type: auto
+        db-config:
+            id-type: auto
 
 server:
     port: 8088

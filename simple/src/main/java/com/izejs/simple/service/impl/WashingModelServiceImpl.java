@@ -13,13 +13,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * <p>
- *  服务实现类
- * </p>
- *
- * @author KunKa
- */
 @Service
 public class WashingModelServiceImpl extends ServiceImpl<WashingModelMapper, WashingModel> implements IWashingModelService {
 

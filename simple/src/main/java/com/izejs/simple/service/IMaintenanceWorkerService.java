@@ -8,13 +8,6 @@ import com.izejs.simple.dto.MaintenanceWorkerDTO;
 
 import java.util.List;
 
-/**
- * <p>
- *  服务类
- * </p>
- *
- * @author KunKa
- */
 public interface IMaintenanceWorkerService extends IService<MaintenanceWorker> {
     IPage<MaintenanceWorker> getAllMaintenanceWorker(Page page, MaintenanceWorkerDTO maintenanceWorker);
 

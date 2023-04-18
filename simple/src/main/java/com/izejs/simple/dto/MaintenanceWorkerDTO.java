@@ -1,13 +1,5 @@
 package com.izejs.simple.dto;
 
-/**
- * <p>
- *
- * </p>
- *
- * @author KunKa
- * @since 2021-04-03
- */
  public class MaintenanceWorkerDTO{
     private String name;
 
@@ -18,7 +10,8 @@ package com.izejs.simple.dto;
     public void setName(String name){
         this.name = name;
     }
-            private String workNumber;
+
+    private String workNumber;
 
     public String getWorkNumber(){
         return this.workNumber;

@@ -13,26 +13,16 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * <p>
- *  服务实现类
- * </p>
- *
- * @author KunKa
- */
+
 @Service
-public class MaintenanceWorkerServiceImpl extends ServiceImpl<MaintenanceWorkerMapper, MaintenanceWorker> implements IMaintenanceWorkerService {
+public class MaintenanceWorkerServiceImpl extends
+        ServiceImpl<MaintenanceWorkerMapper, MaintenanceWorker>
+        implements IMaintenanceWorkerService {
 
     @Autowired
     private MaintenanceWorkerMapper maintenanceWorkerMapper;
 
 
-    /**
-     * 根据条件查询所有的维修工信息
-     * @param page
-     * @param maintenanceWorker
-     * @return
-     */
     @Override
     public IPage<MaintenanceWorker> getAllMaintenanceWorker(Page page, MaintenanceWorkerDTO maintenanceWorker) {
         LambdaQueryWrapper<MaintenanceWorker> queryWrapper = new LambdaQueryWrapper<>();
